@@ -1,9 +1,7 @@
 "use strick"
 
 function makeTransaction (quantity, pricePerDroid){
-const pricePerDroid=;
-const quantity=;
-const totalPrice = (quantity * pricePerDroid);
+const totalPrice = quantity * pricePerDroid;
 return `You ordered ${quantity} droids worth ${totalPrice} credits!`
 }
 
